@@ -1,0 +1,55 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    color: white; /* Cambiar el color del texto a blanco */
+}
+
+body {
+    background-color: #333; /* Agregar un color de fondo oscuro al cuerpo de la página */
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.459);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;  
+    width: 90%;
+    height: 350px; 
+    border-radius: 100px;
+    border: solid white 1px;
+    box-shadow: rgba(255, 255, 255, 0.342) 5px 5px 5px;
+    transition: box-shadow 0.5s ease-in-out; /* Agregar transición al cambio de sombra */
+}
+
+.box:hover {
+
+    box-shadow: rgba(255, 255, 255, 0.781) -5px -5px 5px; /* Cambiar la posición de la sombra cuando el mouse pasa por encima */
+}
+
+.box h4 {
+    color: red;
+}
+.box h6 {
+    color: rgb(197, 197, 197);
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.box a:hover{
+   transform: scale(1.4);
+ 
+}
+
+.container{
+    margin-left: 200px;
+    padding: 30px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    border-radius: 5px;
+}

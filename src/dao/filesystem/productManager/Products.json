@@ -1,0 +1,90 @@
+[
+  {
+    "title": "tv",
+    "description": "Electrodomestico",
+    "price": 100,
+    "thumbnail": "thumbnail",
+    "code": "aaa1",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 31
+  },
+  {
+    "title": "Mouse",
+    "description": "Electrodomestico",
+    "price": 100,
+    "thumbnail": "thumbnail",
+    "code": "aaa1",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 9
+  },
+  {
+    "title": "Led",
+    "description": "Electricidad",
+    "price": 100,
+    "thumbnail": "Sin imagen",
+    "code": "C1",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 28
+  },
+  {
+    "title": "Headphone",
+    "description": "Elect",
+    "price": 100,
+    "thumbnail": "Sin imagen",
+    "code": "E2",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 52
+  },
+  {
+    "title": "Microphone",
+    "description": "Elect",
+    "price": 100,
+    "thumbnail": "Sin imagen",
+    "code": "E3",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 50
+  },
+  {
+    "title": "WebCam",
+    "description": "Elect",
+    "price": 100,
+    "thumbnail": "Sin imagen",
+    "code": "E4",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 74
+  },
+  {
+    "title": "CPU",
+    "description": "Elect",
+    "price": 100,
+    "thumbnail": "Sin imagen",
+    "code": "E5",
+    "stock": 20,
+    "category": "",
+    "status": true,
+    "id": 98
+  },
+  {
+    "title": "PenDrive",
+    "description": "Dispositivo de almacenamiento",
+    "price": 20,
+    "thumbnail": "Sin imagen",
+    "code": "E6",
+    "stock": 10,
+    "category": "",
+    "status": true,
+    "id": 42
+  }
+]

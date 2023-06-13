@@ -1,0 +1,28 @@
+ <br><br>
+    <div class="container"><h6>Cart</h6></div>
+
+
+
+
+<div class="contenedor-cards" id="z-cards"> 
+    {{#each products}}
+            {{!-- <div class="card" style="width: 15rem;"> --}}
+            <div class="card" >
+            <img src="https://via.placeholder.com/180x180" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{this.title}}</h5>
+                <p class="card-text">Description: {{this.description}}</p>
+                <p class="card-text">Price: $<strong>{{this.price}}</strong> || Stock: {{this.stock}}</p>
+                <br>
+                <p>ID:</p>
+                <p>{{this._id}}</p>
+            </div>
+            <div class="card-body">
+            <button id="{{this._id}}" class="btn btn-primary">Go somewhere</button>
+            </div>
+        </div>
+      
+    {{/each}}
+</div>
+
+
