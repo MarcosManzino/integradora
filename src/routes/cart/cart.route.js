@@ -40,22 +40,26 @@ router.get('/', (req,res)=> {
     
 })
 
-router.post('/', (req,res)=> {
-    let data = req.body
-    let cart= new Cart(data)
+router.post('/', (req, res) => {
+    let data = req.body;
+    let cart = new Cart(data);
     cart.save()
-    .then(pr=>{
+      .then(pr => {
         res.status(201).send({
-            msg:'Cart create successfully',
-            data:data
-        })
-    })
-    .catch(err=>{
-        res.status(500).send(
-            console.log('Error create Cart')
-        )
-    })
-})
+          msg: 'Cart created successfully',
+          data: data
+        });
+      })
+      .catch(err => {
+        if (err.code === 11000 && err.keyPattern.date) {
+          res.status(400).send({ error: 'A cart with this date already exists' });
+        } else {
+          res.status(500).send({ error: 'Error creating cart' });
+        }
+      });
+  });
+  
+  
 router.get('/:cId', (req,res)=> {
     const cId = req.params.cId
     Cart.find({cId}).lean()
